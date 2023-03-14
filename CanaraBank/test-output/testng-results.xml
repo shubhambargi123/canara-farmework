@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="14" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T19:08:52 IST" name="CanaraBank" finished-at="2023-02-28T19:08:52 IST" duration-ms="82">
+    <groups>
+    </groups>
+    <test started-at="2023-02-28T19:08:52 IST" name="Loans" finished-at="2023-02-28T19:08:52 IST" duration-ms="82">
+      <class name="Loans.CarLoans">
+        <test-method is-config="true" signature="bfc()[pri:0, instance:Loans.CarLoans@6bedbc4d]" started-at="2023-02-28T19:08:52 IST" name="bfc" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfc -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:Loans.CarLoans@6bedbc4d]" started-at="2023-02-28T19:08:52 IST" name="bfm" finished-at="2023-02-28T19:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method signature="newcarLoan()[pri:0, instance:Loans.CarLoans@6bedbc4d]" started-at="2023-02-28T19:08:52 IST" name="newcarLoan" finished-at="2023-02-28T19:08:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcarLoan -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:Loans.CarLoans@6bedbc4d]" started-at="2023-02-28T19:08:52 IST" name="afm" finished-at="2023-02-28T19:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method is-config="true" signature="afc()[pri:0, instance:Loans.CarLoans@6bedbc4d]" started-at="2023-02-28T19:08:52 IST" name="afc" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afc -->
+      </class> <!-- Loans.CarLoans -->
+      <class name="Loans.JcbLoans">
+        <test-method is-config="true" signature="bfc()[pri:0, instance:Loans.JcbLoans@932bc4a]" started-at="2023-02-28T19:08:52 IST" name="bfc" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfc -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:Loans.JcbLoans@932bc4a]" started-at="2023-02-28T19:08:52 IST" name="bfm" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method signature="lightWeight()[pri:0, instance:Loans.JcbLoans@932bc4a]" started-at="2023-02-28T19:08:52 IST" name="lightWeight" finished-at="2023-02-28T19:08:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lightWeight -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:Loans.JcbLoans@932bc4a]" started-at="2023-02-28T19:08:52 IST" name="afm" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method is-config="true" signature="afc()[pri:0, instance:Loans.JcbLoans@932bc4a]" started-at="2023-02-28T19:08:52 IST" name="afc" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afc -->
+      </class> <!-- Loans.JcbLoans -->
+      <class name="Loans.BikeLoans">
+        <test-method is-config="true" signature="bfs()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="bfs" finished-at="2023-02-28T19:08:52 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfs -->
+        <test-method is-config="true" signature="bft()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="bft" finished-at="2023-02-28T19:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bft -->
+        <test-method is-config="true" signature="bfc()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="bfc" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfc -->
+        <test-method is-config="true" signature="bfm()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="bfm" finished-at="2023-02-28T19:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfm -->
+        <test-method signature="securedLoan()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="securedLoan" finished-at="2023-02-28T19:08:52 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- securedLoan -->
+        <test-method is-config="true" signature="afm()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="afm" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afm -->
+        <test-method is-config="true" signature="afc()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="afc" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afc -->
+        <test-method is-config="true" signature="aft()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="aft" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aft -->
+        <test-method is-config="true" signature="afs()[pri:0, instance:Loans.BikeLoans@48974e45]" started-at="2023-02-28T19:08:52 IST" name="afs" finished-at="2023-02-28T19:08:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afs -->
+      </class> <!-- Loans.BikeLoans -->
+    </test> <!-- Loans -->
+  </suite> <!-- CanaraBank -->
+</testng-results>

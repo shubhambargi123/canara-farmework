@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CanaraBank">
+  <test thread-count="5" name="Loans">
+    <classes>
+   
+     <class name="Loans.BikeLoans">
+     <methods>
+     <include name="securedLoan"></include>
+     </methods>
+      </class> 
+      
+      <class name="Loans.CarLoans">
+     <methods>
+     <include name="newcarLoan"></include>
+     <exclude name="oldcarLoan"></exclude>
+     </methods>
+      </class> 
+      
+      <class name="Loans.JcbLoans">
+     <methods>
+     <include name="lightWeight"></include>
+     </methods>
+      </class> 
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
